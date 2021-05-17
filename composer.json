@@ -20,6 +20,7 @@
         "psr-4": {
             "App\\hmg\\": "src/html-meta-group/",
             "App\\mt\\": "src/html-meta-tag/"
-        }
+        },
+        "files": ["src/helpers.php"]
     }
 }
