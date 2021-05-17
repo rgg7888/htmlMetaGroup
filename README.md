@@ -40,6 +40,6 @@ Como puede observar ,
 solamente agregamos 
 la funcion dentro del array
 del contenido del head en la funcion page()
-y de ese mode agregamos el grupo de meta tags 
+y de ese modo agregamos el grupo de meta tags 
 dentro del wrapper page().
 </p>
