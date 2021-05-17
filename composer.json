@@ -14,7 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "ramiro/html-wrapper": "1.0.0"
+        "ramiro/html-wrapper": "dev-main"
     },
     "autoload": {
         "psr-4": {
