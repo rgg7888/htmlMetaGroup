@@ -1,6 +1,6 @@
 {
     "name": "ramiro/html-meta-group",
-    "description": "wrapper html para contener una pagina web.",
+    "description": "Etiqueta meta para el head y metodos para generar un grupo de ellas.",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "9.5.x-dev"
