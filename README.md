@@ -43,3 +43,10 @@ del contenido del head en la funcion page()
 y de ese modo agregamos el grupo de meta tags 
 dentro del wrapper page().
 </p>
+
+<p>
+    con el helper group() 
+    no es necesario instanciar la clase
+    solo utilize la funcion group()
+    directamente en el head
+</p>
