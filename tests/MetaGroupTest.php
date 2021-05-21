@@ -13,7 +13,7 @@ class MetaGroupTest extends TestCase {
             'keywords' => "HTML, CSS, JavaScript"
         ]);
 
-        $this->assertEquals ('<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="John Doe"/><meta name="description" content="Free Web tutorials"/><meta name="keywords" content="HTML, CSS, JavaScript"/>', $metaGroup->Group());
+        $this->assertEquals ('<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="John Doe"/><meta name="description" content="Free Web tutorials"/><meta name="keywords" content="HTML, CSS, JavaScript"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/>', $metaGroup->Group());
 
     }
 

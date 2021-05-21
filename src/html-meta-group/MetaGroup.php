@@ -34,7 +34,8 @@ class MetaGroup extends Meta {
             $this->viewport(),
             $this->author($this->getAuthor()),
             $this->description($this->getDescription()),
-            $this->keywords($this->getKeywords())
+            $this->keywords($this->getKeywords()),
+            $this->edge()
         ];
         return implode("",$metaTags);
     }

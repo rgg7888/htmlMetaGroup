@@ -55,4 +55,14 @@ class Meta extends HtmlArmor {
         return $this->build();
     }
 
+    public function edge() {
+        $this->setType("auto");
+        $this->setTag("meta");
+        $this->setAtributos([
+            'http-equiv' => "X-UA-Compatible",
+            "content" => "IE=edge"
+        ]);
+        return $this->build();
+    }
+
 }
